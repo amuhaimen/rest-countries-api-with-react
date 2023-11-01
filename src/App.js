@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { useEffect, useState } from "react";
 import Countries from "./components/countries/Countries";
+import Posts from "./components/posts/Posts";
 
 function App() {
   return (
     <div className="App">
+      {/* <Mobile /> */}
       <Countries />
+      {/* <Posts /> */}
+      {/* <Todo /> */}
     </div>
   );
 }

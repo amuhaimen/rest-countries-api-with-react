@@ -1,0 +1,12 @@
+.post {
+  background-color: cornflowerblue;
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
